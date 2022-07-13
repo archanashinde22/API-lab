@@ -18,6 +18,6 @@ const buttonClick =() => {
         } })
         .catch( error => {console.log(error)})
         document.body.appendChild(nameContainer);
-    console.log("Button clicked");
+    
 }
 button.addEventListener('click',buttonClick)
